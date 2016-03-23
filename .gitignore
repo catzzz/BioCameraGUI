@@ -1,6 +1,7 @@
 .*DS_Store
 *.pyc
 tx*
+*.xls
 .*.swp
 *.xml
 *.temp
