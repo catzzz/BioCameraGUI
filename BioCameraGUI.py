@@ -771,16 +771,16 @@ class Example(Frame):
 
 def main():
 
-    #GPIO.setmode(GPIO.BOARD)
+    GPIO.setmode(GPIO.BOARD)
     # reset GPIO
-    #GPIO.cleanup()
-    #GPIO.setwarnings(FALSE)
+    GPIO.cleanup()
+    GPIO.setwarnings(FALSE)
     # set GPIO output
-    #GPIO.setup(11,GPIO.OUT)
-    #GPIO.setup(15,GPIO.OUT)
+    GPIO.setup(11,GPIO.OUT)
+    GPIO.setup(15,GPIO.OUT)
     # open LED
-    #GPIO.output(11,True)
-    #GPIO.output(15,True)
+    GPIO.output(11,True)
+    GPIO.output(15,True)
     time.sleep(2)
     root = Tk()
 
